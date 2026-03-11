@@ -37,7 +37,7 @@ In this Exercise, you'll configure your Salesforce project so that you can begin
 
 Your project is now fully configured with the metadata Agentforce Vibes needs to plan and generate the Partner Performance Dashboard.
 
-## Step 2: Create a component
+## Step 2: Create a component with a multimodal prompt
 
 TODO: use multimodal
 

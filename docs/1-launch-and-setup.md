@@ -9,7 +9,7 @@
 In this Exercise, you'll launch Agentforce Vibes and configure it for the workshop.
 
 
-## Step 1: Launch Agentforce Vibes
+## Step 1: Launch Agentforce Vibes IDE
 
 1. Open the **Setup Menu** and click **Agentforce Vibes**.
 

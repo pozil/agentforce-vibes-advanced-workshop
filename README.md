@@ -7,8 +7,8 @@ Welcome to this advanced workshop for Agentforce Vibes.
 ## Prerequisites
 
 If you're reading this, we assume that you've completed the following prerequisites:
-1. Signed up for a [GitHub account](https://github.com/signup).
-1. Obtained a dedicated workshop org.
+- [ ] Signed up for a [GitHub account](https://github.com/signup).
+- [ ] Obtained a dedicated workshop org.
 
 ## Instructions
 
