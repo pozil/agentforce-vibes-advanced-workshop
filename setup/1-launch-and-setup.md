@@ -12,13 +12,13 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
 
    ![Screenshot showing the Agentforce Vibes terms and conditions](../assets/1-explore-av-terms.jpg)
 
-   > [!TIP]
-   > It will take a few minutes for Agentforce Vibes to fully initialize. A Salesforce DX project will be automatically created for you and your org will be authorized by default.
+> [!TIP]
+> It will take a few minutes for Agentforce Vibes to fully initialize. A Salesforce DX project will be automatically created for you and your org will be authorized by default.
 
-   > [!TIP]
-   > You may see a large number of notifications in the bottom right of the IDE. This is where any IDE or Extension notifications will be published. You can close any that have appeared on launch.
+> [!TIP]
+> You may see a large number of notifications in the bottom right of the IDE. This is where any IDE or Extension notifications will be published. You can close any that have appeared on launch.
 
-1. The **Agentforce Sidebar** should be open by default, if it is not you can select the **Agentforce Vibes Icon** in the sidebar to open.
+3. The **Agentforce Sidebar** should be open by default, if it is not you can select the **Agentforce Vibes Icon** in the sidebar to open.
 
 1. Select **I agree to the terms** and click **Enable and Start Building**.
 
