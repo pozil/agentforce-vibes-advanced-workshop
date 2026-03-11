@@ -1,0 +1,93 @@
+# Exercise 1: Launch and Configure Agentforce Vibes
+
+In this Exercise, you'll launch Agentforce Vibes and configure it for the workshop.
+
+### Step 1: Launch Agentforce Vibes
+
+1. Open the **Setup Menu** and click **Agentforce Vibes**.
+
+   ![Screenshot showing the Setup menu with Agentforce Vibes](../assets/1-explore-av-launch.jpg)
+
+1. Accept the **Terms and Conditions**.
+
+   ![Screenshot showing the Agentforce Vibes terms and conditions](../assets/1-explore-av-terms.jpg)
+
+   > [!TIP]
+   > It will take a few minutes for Agentforce Vibes to fully initialize. A Salesforce DX project will be automatically created for you and your org will be authorized by default.
+
+   > [!TIP]
+   > You may see a large number of notifications in the bottom right of the IDE. This is where any IDE or Extension notifications will be published. You can close any that have appeared on launch.
+
+1. The **Agentforce Sidebar** should be open by default, if it is not you can select the **Agentforce Vibes Icon** in the sidebar to open.
+
+1. Select **I agree to the terms** and click **Enable and Start Building**.
+
+   ![Screenshot showing a prompt to accept terms before enabling Agentforce Vibes](../assets/1-explore-av-meet-agentforce.jpg)
+
+### Step 2: Install the Workshop Helper Extension
+
+1. Open the **Integrated Terminal** (press `` CTRL+` `` on both Mac and Windows)
+
+1. Run the following command:
+
+   ```shell
+   curl -L -o agentforce-workshop-helper-1.0.0.vsix \
+   "https://agentforce-vibes-workshop.s3.us-east-2.amazonaws.com/agentforce-workshop-helper-1.0.0.vsix"
+   ```
+
+1. Open the **Explorer Sidebar**.
+
+1. Right-click on **agentforce-workshop-helper-1.0.0.vsix** and select **Install Extension VSIX**.
+
+   ![Shreenshot showing how to install the .vsix file](../assets/1-explore-av-install.jpg)
+
+1. Open the **Extensions Sidebar** and check that the **Agentforce Workshop Helper** extension is installed:
+
+   ![Shreenshot showing the Agentforce Workshop Helper extension](../assets/1-explore-av-installed.jpg)
+
+
+### Step 3: Update the Salesforce DX MCP Servers
+
+1. Open the **Agentforce Vibes Sidebar**.
+
+1. Click **Manage MCP Server**.
+
+   ![Screenshot of MCP server list](../assets/1-explore-av-agentforce-mcp.jpg)
+
+1. Click the **Configuration Icon**.
+
+   ![Screenshot showing the edit icon for MCP servers](../assets/1-explore-av-configure-mcp-servers-icon.jpg)
+
+1. Click **Configure MCP Servers** to open the configuration file(`a4d_mcp_settings.json).
+
+   ![Screenshot showing the "configure MCP servers" button](../assets/1-explore-av-configure-mcp-servers.jpg)
+
+1. Replace the contents with the following:
+
+   ```json
+   {
+     "mcpServers": {
+       "https://github.com/salesforcecli/mcp": {
+         "disabled": false,
+         "type": "stdio",
+         "timeout": 600,
+         "command": "node",
+         "args": [
+           "/home/codebuilder/.local/share/code-server/User/globalStorage/salesforce.salesforcedx-einstein-gpt/MCP/a4d-mcp-wrapper.js",
+           "@salesforce/mcp@latest",
+           "--orgs",
+           "ALLOW_ALL_ORGS",
+           "--toolsets",
+           "metadata",
+           "lwc-experts",
+           "--tools",
+           "get_username,run_apex_test,run_soql_query,guide_lwc_development,orchestrate_lwc_component_creation,guide_lwc_accessibility,create_lwc_component_from_prd,assign_permission_set,list_all_orgs,list_devops_center_projects,list_devops_center_work_items,create_devops_center_pull_request,promote_devops_center_work_item,commit_devops_center_work_item,check_devops_center_commit_status,checkout_devops_center_work_item,run_code_analyzer,describe_code_analyzer_rule,detect_devops_center_merge_conflict,resolve_devops_center_merge_conflict",
+           "--allow-non-ga-tools"
+         ]
+       }
+     }
+   }
+   ```
+
+   > [!TIP]
+   > We have activated the experimental MCP tools using the `--allow-non-ga-tools` flag. You can see all available MCP tools on the [Salesforce CLI](https://github.com/salesforcecli/mcp/blob/main/README.md#mcp-client-configurations) GitHUb repository.
