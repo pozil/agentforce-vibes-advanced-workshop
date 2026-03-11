@@ -1,8 +1,10 @@
 # Exercise 2: Configure a Salesforce Project
 
+[Back to home](../README.md)
+
 In this Exercise, you'll configure your Salesforce project so that you can begin Vibe Coding with context.
 
-### Step 1: Configure Your Project
+## Step 1: Configure Your Project
 
 1. Open the **Org Browser Sidebar** to retrieve your project metadata.
 

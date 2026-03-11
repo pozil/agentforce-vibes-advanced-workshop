@@ -1,8 +1,10 @@
 # Exercise 1: Launch and Configure Agentforce Vibes
 
+[Back to home](../README.md)
+
 In this Exercise, you'll launch Agentforce Vibes and configure it for the workshop.
 
-### Step 1: Launch Agentforce Vibes
+## Step 1: Launch Agentforce Vibes
 
 1. Open the **Setup Menu** and click **Agentforce Vibes**.
 
@@ -24,7 +26,7 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
 
    ![Screenshot showing a prompt to accept terms before enabling Agentforce Vibes](../assets/1-explore-av-meet-agentforce.jpg)
 
-### Step 2: Install the Workshop Helper Extension
+## Step 2: Install the Workshop Helper Extension
 
 1. Open the **Integrated Terminal** (press `` CTRL+` `` on both Mac and Windows)
 
@@ -46,7 +48,7 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
    ![Shreenshot showing the Agentforce Workshop Helper extension](../assets/1-explore-av-installed.jpg)
 
 
-### Step 3: Update the Salesforce DX MCP Servers
+## Step 3: Update the Salesforce DX MCP Servers
 
 1. Open the **Agentforce Vibes Sidebar**.
 
@@ -90,3 +92,5 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
 
 > [!TIP]
 > We have activated the experimental MCP tools using the `--allow-non-ga-tools` flag. You can see all available MCP tools on the [Salesforce CLI](https://github.com/salesforcecli/mcp/blob/main/README.md#mcp-client-configurations) GitHUb repository.
+
+[Next Exercise](2-configure-a-salesforce-project.md)
