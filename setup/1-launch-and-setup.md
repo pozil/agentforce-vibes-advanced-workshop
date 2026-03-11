@@ -88,5 +88,5 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
    }
    ```
 
-   > [!TIP]
-   > We have activated the experimental MCP tools using the `--allow-non-ga-tools` flag. You can see all available MCP tools on the [Salesforce CLI](https://github.com/salesforcecli/mcp/blob/main/README.md#mcp-client-configurations) GitHUb repository.
+> [!TIP]
+> We have activated the experimental MCP tools using the `--allow-non-ga-tools` flag. You can see all available MCP tools on the [Salesforce CLI](https://github.com/salesforcecli/mcp/blob/main/README.md#mcp-client-configurations) GitHUb repository.
