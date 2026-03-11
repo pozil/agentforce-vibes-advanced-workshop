@@ -123,5 +123,5 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
 <p align="center">
    <a href="../README.md">▲ Home</a>
    &nbsp;<b>|</b>&nbsp;
-   <a href="2-configure-a-salesforce-project.md">▶︎ Next Exercise</a>
+   <a href="2-vibe-code-a-component.md">▶︎ Next Exercise</a>
 </p>
