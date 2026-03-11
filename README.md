@@ -1,2 +1,2 @@
-# agentforce-vibes-advanced-workshop
+# Agentforce Vibes Advanced Workshop
 Advanced workshop for Agentforce Vibes
