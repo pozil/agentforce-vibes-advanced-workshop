@@ -4,6 +4,7 @@
 
 In this Exercise, you'll launch Agentforce Vibes and configure it for the workshop.
 
+
 ## Step 1: Launch Agentforce Vibes
 
 1. Open the **Setup Menu** and click **Agentforce Vibes**.
@@ -60,7 +61,7 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
 
    ![Screenshot showing the edit icon for MCP servers](../assets/1-explore-av-configure-mcp-servers-icon.jpg)
 
-1. Click **Configure MCP Servers** to open the configuration file(`a4d_mcp_settings.json`).
+1. Click **Configure MCP Servers** to open the configuration file (`a4d_mcp_settings.json`).
 
    ![Screenshot showing the "configure MCP servers" button](../assets/1-explore-av-configure-mcp-servers.jpg)
 
@@ -92,5 +93,24 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
 
 > [!TIP]
 > We have activated the experimental MCP tools using the `--allow-non-ga-tools` flag. You can see all available MCP tools on the [Salesforce CLI](https://github.com/salesforcecli/mcp/blob/main/README.md#mcp-client-configurations) GitHub repository.
+
+
+## Step 4: Configure safe commands
+
+1. From the **Agentforce Vibes Sidebar**, click **Auto-approve: Read, Edit, Safe Commands, MCP**
+
+1. Click **Manage Safe Command Allow List** to open the configuration file (`a4d_safe_commands`).
+
+   ![Screenshot showing the auto approval configuration panel](../assets/1-explore-av-manage-safe-commands.png)
+
+1. Paste the following lines at the end of the file:
+
+   ```
+   git status
+   mkdir ...
+   ls ...
+   find ...
+   head ...
+   ```
 
 [Next Exercise](2-configure-a-salesforce-project.md)
