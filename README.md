@@ -8,9 +8,10 @@ Welcome to this advanced workshop for Agentforce Vibes.
 
 If you're reading this, we assume that you've completed the following prerequisites:
 1. Signed up for a [GitHub account](https://github.com/signup).
-1. Optained a dedicated workshop org.
+1. Obtained a dedicated workshop org.
 
 ## Instructions
 
-1. [Exercise 1: Launch and Configure Agentforce Vibes](docs/1-launch-and-setup.md)
-2. [Exercise 2: Configure a Salesforce Project](docs/2-configure-a-salesforce-project.md)
+1. [Launch and Configure Agentforce Vibes](docs/1-launch-and-setup.md)
+2. [Vibe Code a Component](docs/2-vibe-code-a-component.md)
+3. [Work with Rules, Workflows and Skills](docs/3-work-with-rules-workflows-skills.md)

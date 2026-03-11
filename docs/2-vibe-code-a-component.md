@@ -1,9 +1,11 @@
-# Exercise 2: Configure a Salesforce Project
+# Exercise 2: Vibe Code a Component
 
 <p align="center">
    <a href="1-launch-and-setup.md">◀︎ Previous Exercise</a>
    &nbsp;<b>|</b>&nbsp;
    <a href="../README.md">▲ Home</a>
+   &nbsp;<b>|</b>&nbsp;
+   <a href="3-work-with-rules-workflows-skills.md">Next Exercise ▶︎</a>
 </p>
 
 ---
@@ -12,7 +14,7 @@ In this Exercise, you'll configure your Salesforce project so that you can begin
 
 ## Step 1: Retrieve the Org's Metadata
 
-1. Open the **Terminal** (press <kbd>CTRL</kbd>+<kbd>`</kbd> on both Mac and Windows)
+1. Open the **Terminal** (press <kbd>CTRL</kbd> + <kbd>`</kbd> on both Mac and Windows)
 
 1. Run the following command:
 
@@ -35,10 +37,16 @@ In this Exercise, you'll configure your Salesforce project so that you can begin
 
 Your project is now fully configured with the metadata Agentforce Vibes needs to plan and generate the Partner Performance Dashboard.
 
+## Step 2: Create a component
+
+TODO: use multimodal
+
 ---
 
 <p align="center">
    <a href="1-launch-and-setup.md">◀︎ Previous Exercise</a>
    &nbsp;<b>|</b>&nbsp;
    <a href="../README.md">▲ Home</a>
+   &nbsp;<b>|</b>&nbsp;
+   <a href="3-work-with-rules-workflows-skills.md">Next Exercise ▶︎</a>
 </p>
