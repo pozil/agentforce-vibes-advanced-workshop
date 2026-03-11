@@ -1,8 +1,6 @@
 # Agentforce Vibes Advanced Workshop
 
-<p align="center">
-  <img src="assets/0-agentforce-vibes-logo.jpg" alt="Agentforce Vibes Logo"/>
-</p>
+![Agentforce Vibes Logo](assets/0-agentforce-vibes-logo.jpg)
 
 Welcome to this advanced workshop for Agentforce Vibes.
 
