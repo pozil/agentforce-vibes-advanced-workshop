@@ -78,10 +78,9 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
            "--orgs",
            "ALLOW_ALL_ORGS",
            "--toolsets",
-           "metadata",
-           "lwc-experts",
+           "data,metadata,lwc-experts,aura-experts,code-analysis,users",
            "--tools",
-           "get_username,run_apex_test,run_soql_query,guide_lwc_development,orchestrate_lwc_component_creation,guide_lwc_accessibility,create_lwc_component_from_prd,assign_permission_set,list_all_orgs,list_devops_center_projects,list_devops_center_work_items,create_devops_center_pull_request,promote_devops_center_work_item,commit_devops_center_work_item,check_devops_center_commit_status,checkout_devops_center_work_item,run_code_analyzer,describe_code_analyzer_rule,detect_devops_center_merge_conflict,resolve_devops_center_merge_conflict",
+           "run_apex_test",
            "--allow-non-ga-tools"
          ]
        }

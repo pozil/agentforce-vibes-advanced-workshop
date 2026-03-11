@@ -11,10 +11,10 @@ In this Exercise, you'll configure your Salesforce project so that you can begin
    - **Lead**
    - **Opportunity**
 
-   > [!TIP]
-   > Downloading objects ensures Agentforce Vibes can analyze your org’s schema and accurately generate Apex and LWC code.
+> [!TIP]
+> Downloading objects ensures Agentforce Vibes can analyze your org’s schema and accurately generate Apex and LWC code.
 
-1. Expand **Permission Sets** and download the **Partner Management** Permission Set.
+3. Expand **Permission Sets** and download the **Partner Management** Permission Set.
 
 1. Expand **Lightning Web Components** and download the **genericPageHeader** component
 
