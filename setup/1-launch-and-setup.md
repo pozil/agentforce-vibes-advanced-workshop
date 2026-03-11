@@ -60,7 +60,7 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
 
    ![Screenshot showing the edit icon for MCP servers](../assets/1-explore-av-configure-mcp-servers-icon.jpg)
 
-1. Click **Configure MCP Servers** to open the configuration file(`a4d_mcp_settings.json).
+1. Click **Configure MCP Servers** to open the configuration file(`a4d_mcp_settings.json`).
 
    ![Screenshot showing the "configure MCP servers" button](../assets/1-explore-av-configure-mcp-servers.jpg)
 
@@ -91,6 +91,6 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
    ```
 
 > [!TIP]
-> We have activated the experimental MCP tools using the `--allow-non-ga-tools` flag. You can see all available MCP tools on the [Salesforce CLI](https://github.com/salesforcecli/mcp/blob/main/README.md#mcp-client-configurations) GitHUb repository.
+> We have activated the experimental MCP tools using the `--allow-non-ga-tools` flag. You can see all available MCP tools on the [Salesforce CLI](https://github.com/salesforcecli/mcp/blob/main/README.md#mcp-client-configurations) GitHub repository.
 
 [Next Exercise](2-configure-a-salesforce-project.md)
