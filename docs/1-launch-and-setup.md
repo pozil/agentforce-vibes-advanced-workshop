@@ -1,6 +1,8 @@
 # Exercise 1: Launch and Configure Agentforce Vibes
 
-[Back to home](../README.md)
+<p align="center">
+   <a href="../README.md">▲ Home</a>
+</p>
 
 In this Exercise, you'll launch Agentforce Vibes and configure it for the workshop.
 
@@ -29,7 +31,7 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
 
 ## Step 2: Install the Workshop Helper Extension
 
-1. Open the **Integrated Terminal** (press `` CTRL+` `` on both Mac and Windows)
+1. Open the **Integrated Terminal** (press <kbd>CTRL</kbd>+<kbd>`</kbd> on both Mac and Windows)
 
 1. Run the following command:
 
@@ -113,4 +115,11 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
    head ...
    ```
 
-[Next Exercise](2-configure-a-salesforce-project.md)
+
+---
+
+<p align="center">
+   <a href="../README.md">▲ Home</a>
+   &nbsp;<b>|</b>&nbsp;
+   <a href="2-configure-a-salesforce-project.md">▶︎ Next Exercise</a>
+</p>
