@@ -10,7 +10,7 @@
 
 ---
 
-In this Exercise, you'll configure your Salesforce project so that you can begin Vibe Coding with context.
+In this exercise, you'll configure your Salesforce project to retrieve some context and vibe code a component with a mutlimodal prompt.
 
 ## Step 1: Retrieve the Org's Metadata
 
@@ -19,7 +19,7 @@ In this Exercise, you'll configure your Salesforce project so that you can begin
 1. Run the following command:
 
    ```shell
-   sf project retrieve start -m CustomObject:Account -m CustomObject:Lead -m CustomObject:Opportunity CustomObject:Lead -m LightningComponentBundle:genericPageHeader -m PermissionSet:Partner_Management
+   sf project retrieve start -m CustomObject:Account -m CustomObject:Lead -m CustomObject:Opportunity CustomObject:Lead -m PermissionSet:Partner_Management
    ```
 
    This command retrieves the metadata required for the project.
@@ -32,14 +32,29 @@ In this Exercise, you'll configure your Salesforce project so that you can begin
 
 3. Confirm that your project's `force-app/main/default` folder includes:
    - The **Account**, **Lead**, and **Opportunity** objects in the `objects` folder
-   - The `genericPageHeader` LWC in the `lwc` folder
    - The **Partner Management** permission set in the `permissionsets` folder
 
 Your project is now fully configured with the metadata Agentforce Vibes needs to plan and generate the Partner Performance Dashboard.
 
 ## Step 2: Create a component with a multimodal prompt
 
-TODO: use multimodal
+In this step, we're going to use a multimodal prompt with an image to generate a component.
+
+This is the hand drawn sketch that we'll use:
+
+   ![UI sketch](../assets/2-ui-sketch.jpg)
+
+1. Run the following command in the terminal to retrieve the image file in your project:
+
+   ```shell
+   curl -L -o ui-sketch.jpg \
+   "https://agentforce-vibes-workshop.s3.us-east-2.amazonaws.com/agentforce-workshop-helper-1.0.0.vsix"
+   ```
+
+> [!TIP]
+> The above step is specific to Agentforce Vibes IDE. With VS Code, the image can be located anywhere.
+
+2. TODO
 
 ---
 

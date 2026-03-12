@@ -13,11 +13,11 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
 
 1. Open the **Setup Menu** and click **Agentforce Vibes**.
 
-   ![Screenshot showing the Setup menu with Agentforce Vibes](../assets/1-explore-av-launch.jpg)
+   ![Screenshot showing the Setup menu with Agentforce Vibes](../assets/1-launch.jpg)
 
 1. Accept the **Terms and Conditions**.
 
-   ![Screenshot showing the Agentforce Vibes terms and conditions](../assets/1-explore-av-terms.jpg)
+   ![Screenshot showing the Agentforce Vibes terms and conditions](../assets/1-terms.jpg)
 
 > [!TIP]
 > It will take a few minutes for Agentforce Vibes to fully initialize. A Salesforce DX project will be automatically created for you and your org will be authorized by default.
@@ -29,7 +29,7 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
 
 1. Select **I agree to the terms** and click **Enable and Start Building**.
 
-   ![Screenshot showing a prompt to accept terms before enabling Agentforce Vibes](../assets/1-explore-av-meet-agentforce.jpg)
+   ![Screenshot showing a prompt to accept terms before enabling Agentforce Vibes](../assets/1-meet-agentforce.jpg)
 
 ## Step 2: Install the Workshop Helper Extension
 
@@ -46,11 +46,11 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
 
 1. Right-click on **agentforce-workshop-helper-1.0.0.vsix** and select **Install Extension VSIX**.
 
-   ![Shreenshot showing how to install the .vsix file](../assets/1-explore-av-install.jpg)
+   ![Shreenshot showing how to install the .vsix file](../assets/1-install.jpg)
 
 1. Open the **Extensions Sidebar** and check that the **Agentforce Workshop Helper** extension is installed:
 
-   ![Shreenshot showing the Agentforce Workshop Helper extension](../assets/1-explore-av-installed.jpg)
+   ![Shreenshot showing the Agentforce Workshop Helper extension](../assets/1-installed.jpg)
 
 
 ## Step 3: Update the Salesforce DX MCP Servers
@@ -59,15 +59,15 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
 
 1. Click **Manage MCP Server**.
 
-   ![Screenshot of MCP server list](../assets/1-explore-av-agentforce-mcp.jpg)
+   ![Screenshot of MCP server list](../assets/1-agentforce-mcp.jpg)
 
 1. Click the **Configuration Icon**.
 
-   ![Screenshot showing the edit icon for MCP servers](../assets/1-explore-av-configure-mcp-servers-icon.jpg)
+   ![Screenshot showing the edit icon for MCP servers](../assets/1-configure-mcp-servers-icon.jpg)
 
 1. Click **Configure MCP Servers** to open the configuration file (`a4d_mcp_settings.json`).
 
-   ![Screenshot showing the "configure MCP servers" button](../assets/1-explore-av-configure-mcp-servers.jpg)
+   ![Screenshot showing the "configure MCP servers" button](../assets/1-configure-mcp-servers.jpg)
 
 1. Replace the contents with the following:
 
@@ -105,7 +105,7 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
 
 1. Click **Manage Safe Command Allow List** to open the configuration file (`a4d_safe_commands`).
 
-   ![Screenshot showing the auto approval configuration panel](../assets/1-explore-av-manage-safe-commands.png)
+   ![Screenshot showing the auto approval configuration panel](../assets/1-manage-safe-commands.png)
 
 1. Paste the following lines at the end of the file:
 
