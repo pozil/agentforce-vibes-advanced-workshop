@@ -78,8 +78,8 @@ This is the hand drawn sketch that we'll use:
 
 6. When prompted to do so, approve the use of the `deploy_metadata` tool.
 
-> [!INFO]
-> This may happen more than once if the agent needs to make adjustments to the deploy parameters.
+> [!TIP]
+> This may happen more than once if the agent needs to make adjustments to the deploy parameters or metadata.
 
 7. Once the deployment is complete. Open your org's home page.
 
