@@ -29,7 +29,7 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
 
 1. Select **I agree to the terms** and click **Enable and Start Building**.
 
-   ![Screenshot showing a prompt to accept terms before enabling Agentforce Vibes](../assets/1-meet-agentforce.jpg)
+   ![Screenshot showing a prompt to accept terms before enabling Agentforce Vibes](https://raw.githubusercontent.com/pozil/agentforce-vibes-advanced-workshop/main/assets/1-meet-agentforce.jpg)
 
 ## Step 2: Install the Workshop Helper Extension
 
@@ -46,11 +46,11 @@ In this Exercise, you'll launch Agentforce Vibes and configure it for the worksh
 
 1. Right-click on **agentforce-workshop-helper-1.0.0.vsix** and select **Install Extension VSIX**.
 
-   ![Shreenshot showing how to install the .vsix file](../assets/1-install.jpg)
+   ![Screenshot showing how to install the .vsix file](../assets/1-install.jpg)
 
 1. Open the **Extensions Sidebar** and check that the **Agentforce Workshop Helper** extension is installed:
 
-   ![Shreenshot showing the Agentforce Workshop Helper extension](../assets/1-installed.jpg)
+   ![Screenshot showing the Agentforce Workshop Helper extension](../assets/1-installed.jpg)
 
 
 ## Step 3: Update the Salesforce DX MCP Servers

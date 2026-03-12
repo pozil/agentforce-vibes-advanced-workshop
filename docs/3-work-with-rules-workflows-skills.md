@@ -34,7 +34,7 @@ In this Exercise, you'll work with [Rules](https://developer.salesforce.com/docs
 
 ## Create a Workflow
 
-Checkout out a feature branch, commit the current changes, push them to the remote. Create a PR.
+Check out a feature branch, commit the current changes, push them to the remote. Create a PR.
 
 ## Create a Skill
 
