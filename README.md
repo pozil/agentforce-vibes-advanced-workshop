@@ -14,5 +14,4 @@ If you're reading this, we assume that you've completed the following prerequisi
 
 1. [Launch and Configure Agentforce Vibes](docs/1-launch-and-setup.md)
 2. [Vibe Code a Component](docs/2-vibe-code-a-component.md)
-3. [Work with Rules, Workflows and Skills](docs/3-work-with-rules-workflows-skills.md)
-4. [Work with GitHub](docs/4-working-with-github.md)
+3. [Work with Rules and Workflows](docs/3-work-with-rules-workflows.md)

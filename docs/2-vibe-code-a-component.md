@@ -5,7 +5,7 @@
    &nbsp;<b>|</b>&nbsp;
    <a href="../README.md">▲ Home</a>
    &nbsp;<b>|</b>&nbsp;
-   <a href="3-work-with-rules-workflows-skills.md">Next Exercise ▶︎</a>
+   <a href="3-work-with-rules-workflows.md">Next Exercise ▶︎</a>
 </p>
 
 ---
@@ -16,7 +16,7 @@ In this exercise, you'll configure your Salesforce project to retrieve some cont
 
 1. Open the **Terminal** (press <kbd>CTRL</kbd> + <kbd>`</kbd> on both Mac and Windows)
 
-1. Run the following command:
+2. Run the following command:
 
    ```shell
    sf project retrieve start -m CustomObject:Account -m CustomObject:Lead -m CustomObject:Opportunity
@@ -51,18 +51,18 @@ This is the hand drawn sketch that we'll use:
 
    Ensure that the `ui-sketch.jpg` file is saved at the root of your project.
 
-> [!TIP]
+> [!NOTE]
 > This step is specific to Agentforce Vibes IDE. With VS Code, the image can be located anywhere so you don't need to retrieve it in your project.
 
 2. Type `@` in the Agentforce Vibes prompt input to open the context menu.
 
    ![Screenshot showing the Agentforce Vibes prompt input with the context menu open](../assets/2-context-menu.png)
 
-1. From the menu, click **Upload File or Image**.
+3. From the menu, click **Upload File or Image**.
 
-1. Select the `ui-sketch.jpg` file at the root of your project.
+4. Select the `ui-sketch.jpg` file at the root of your project.
 
-1. Paste this prompt then hit <kbd>Enter</kbd>:
+5. Paste this prompt then hit <kbd>Enter</kbd>:
 
    ```
    Implement an LWC for our home page with the following UI.
@@ -73,25 +73,25 @@ This is the hand drawn sketch that we'll use:
    Deploy the changes when done.
    ```
 
-> [!IMPORTANT]
+> [!WARNING]
 > There is currently a bug in our integration with the Claude LLM when dealing with multimodal prompts. You may need to click "Retry" if you see errors.
 
 6. When prompted to do so, approve the use of the `deploy_metadata` tool.
 
-> [!TIP]
+> [!NOTE]
 > This may happen more than once if the agent needs to make adjustments to the deploy parameters or metadata.
 
-7. Once the deployment is complete. Open your org's home page.
+7. Once the deployment is complete, open your org's home page.
 
-1. Click the **Setup icon menu** then click **Edit Page**.
+8. Click the **Setup icon menu** then click **Edit Page**.
 
    ![Screenshot showing the edit page menu](../assets/2-edit-home-page.png)
 
-1. Scroll down to **Custom** components and drag and drop the `partnerPerformanceDashboard` component on top of the page.
+9. Scroll down to **Custom** components and drag and drop the `partnerPerformanceDashboard` component on top of the page.
 
-1. Click **Save**.
+10. Click **Save**.
 
-1. Click the **back arrow** on top of the screen to return to your home page and admire your new dashboard.
+11. Click the **back arrow** on top of the screen to return to your home page and admire your new dashboard.
 
    ![Screenshot showing the dashboard component](../assets/2-dashboard.png)
 
@@ -102,5 +102,5 @@ This is the hand drawn sketch that we'll use:
    &nbsp;<b>|</b>&nbsp;
    <a href="../README.md">▲ Home</a>
    &nbsp;<b>|</b>&nbsp;
-   <a href="3-work-with-rules-workflows-skills.md">Next Exercise ▶︎</a>
+   <a href="3-work-with-rules-workflows.md">Next Exercise ▶︎</a>
 </p>
