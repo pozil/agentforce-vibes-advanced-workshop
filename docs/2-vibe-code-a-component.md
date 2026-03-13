@@ -10,7 +10,8 @@
 
 ---
 
-In this exercise, you'll configure your Salesforce project to retrieve some context and vibe code a component with a multimodal prompt.
+In this exercise, you'll configure your Salesforce project to retrieve some context and vibe code a component with a multimodal prompt in Agentforce Vibes.
+
 
 ## Step 1: Retrieve the Org's Metadata
 

@@ -10,7 +10,7 @@
 
 ---
 
-In this exercise, you'll configure git and work with [Rules](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/devagent-rules.html).
+In this exercise, you'll configure git and create an [Agentforce Vibes Rule](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/devagent-rules.html) that enforces git conventions.
 
 
 ## Step 1: Configure git
