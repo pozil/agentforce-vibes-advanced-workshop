@@ -121,5 +121,5 @@ In this exercise, you'll launch Agentforce Vibes and configure it for the worksh
 <p align="center">
    <a href="../README.md">▲ Home</a>
    &nbsp;<b>|</b>&nbsp;
-   <a href="2-vibe-code-a-component.md">▶︎ Next Exercise</a>
+   <a href="2-vibe-code-a-component.md">Next Exercise ▶︎</a>
 </p>

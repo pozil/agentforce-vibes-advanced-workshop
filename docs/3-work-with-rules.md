@@ -52,7 +52,7 @@ In this exercise, you'll configure git and create an [Agentforce Vibes Rule](htt
    ```shell
    git init
    git add --all -- ':!force-app/main/default/classes' ':!force-app/main/default/lwc'
-   git commit -m "feat: initial commit"
+   git commit --message "feat: initial commit"
    ```
 
 > [!NOTE]
@@ -99,12 +99,12 @@ In this exercise, you'll configure git and create an [Agentforce Vibes Rule](htt
    Generate some Apex tests.
    Deploy the tests.
    Run the tests and ensure that they all pass.
-   Commit and push them.
+   Commit my changes.
    ```
 
    The dev agent may make several attempts at fulfilling this and fixing test errors.
    
-   You will need to approve the `deploy_metadata`, `run_apex_test` tools' execution and the `git add`, `git commit` and `git push` commands. 
+   You will need to approve the `deploy_metadata`, `run_apex_test` tools' execution and the `git add` and `git commit` commands. 
 
 > [!TIP]
 > You can safely auto-approve the execution of `run_apex_test`.
