@@ -44,6 +44,7 @@ In this exercise, you'll configure git and work with [Rules](https://developer.s
    rm -fr force-app/main/default/tabs
    rm -fr force-app/main/default/triggers
    rm *.vsix
+   echo "trace.md" >> .gitignore
    ```
 
 2. Run these commands in the terminal to initialize a local git repository and create an initial commit:
@@ -85,9 +86,28 @@ In this exercise, you'll configure git and work with [Rules](https://developer.s
    ```
    Commit my changes.
    ```
+   
+7. Accept the git commands (`git status`, `git add` and `git commit`) that the agent wants to run.
+
+   In the end, you should obtain something like the image below. Note how the rule that we've set up is used to format the commit message.
+   
+   ![Screenshot showing the request to run the commit command](../assets/3-commit-command.png)
+
+8. Go to Agentforce Vibes prompts, paste this text as a single prompt then hit <kbd>Enter</kbd>:
+
+   ```
+   Generate some Apex tests.
+   Deploy the tests.
+   Run the tests and ensure that they all pass.
+   Commit and push them.
+   ```
+
+   The dev agent may make several attempts at fulfilling this and fixing test errors.
+   
+   You will need to approve the `deploy_metadata`, `run_apex_test` tools' execution and the `git add`, `git commit` and `git push` commands. 
 
 > [!TIP]
-> Note how the rule that we've set up is used to format the commit message.
+> You can safely auto-approve the execution of `run_apex_test`.
 
 ---
 

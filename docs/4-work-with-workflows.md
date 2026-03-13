@@ -41,7 +41,22 @@ In this exercise, you'll configure GitHub and work with [Workflows](https://deve
 > You can run "gh auth status" to verify that you're correctly authenticated.
 
 
-## Step 2: Create a workflow to manage GitHub releases
+## Step 2: Create a GitHub repository with your project's content
+
+1. Run this command in the terminal to create a private GitHub repository and push your project to it:
+
+   ```shell
+   gh repo create agentforce-vibes-workshop --private --push --source .
+   ```
+
+1. Optional: run this command to open your repository in a new browser tab and inspect it:
+
+   ```shell
+   gh repo view --web
+   ```
+
+
+## Step 3: Create a workflow to manage GitHub releases
 
 
 
