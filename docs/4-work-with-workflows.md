@@ -111,9 +111,9 @@ In this exercise, you'll configure GitHub and create an [Agentforce Vibes Workfl
 10. Enter `Automated release workflow` when the agent asks about the release title.
 
 11. Allow the agent to:
-   - edit `package.json`
-   - run the `git add ...` command
-   - run the `gh release create ...` command
+      - edit `package.json`
+      - run the `git add ...` command
+      - run the `gh release create ...` command
 
 12. Run this command to verify that the new version is created:
 
