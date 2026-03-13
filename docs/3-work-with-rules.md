@@ -71,7 +71,7 @@ In this exercise, you'll configure git and create an [Agentforce Vibes Rule](htt
 
 4. Click **+** next to the text that you entered.
 
-5. Paste the following text in the file:
+5. Paste the following text in the rule file (`custom-git-conventions.md`):
 
    ```md
    # Git Conventions
@@ -81,19 +81,24 @@ In this exercise, you'll configure git and create an [Agentforce Vibes Rule](htt
    - `description` is a short description of the changes introduced in the commit, a summary of the issue or the PR.
    ```
 
-6. Go to Agentforce Vibes prompts, paste this text then hit <kbd>Enter</kbd>:
+## Step 4: Test your rule
+
+1. Go to Agentforce Vibes prompts, paste this text then hit <kbd>Enter</kbd>:
 
    ```
    Commit my changes.
    ```
-   
-7. Accept the git commands (`git status`, `git add` and `git commit`) that the agent wants to run.
+
+2. Accept the git commands (`git add` and `git commit`) that the agent wants to run.
+
+> [!NOTE]
+> You're not prompted for confirmation when the agent runs `git status` because we added the command to the safe list earlier.
 
    In the end, you should obtain something like the image below. Note how the rule that we've set up is used to format the commit message.
    
    ![Screenshot showing the request to run the commit command](../assets/3-commit-command.png)
 
-8. Go to Agentforce Vibes prompts, paste this text as a single prompt then hit <kbd>Enter</kbd>:
+3. Run the following prompt:
 
    ```
    Generate some Apex tests.

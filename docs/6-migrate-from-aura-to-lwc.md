@@ -1,7 +1,7 @@
-# Exercise 5: Migrate from Aura to LWC
+# Exercise 6: Migrate from Aura to LWC
 
 <p align="center">
-   <a href="4-work-with-workflows.md">◀︎ Previous Exercise</a>
+   <a href="5-work-with-skills.md">◀︎ Previous Exercise</a>
    &nbsp;<b>|</b>&nbsp;
    <a href="../README.md">▲ Home</a>
 </p>
@@ -32,7 +32,7 @@ In this exercise, you'll create an Aura component and migrate it to LWC with the
 3. Edit the page with Lightning App Builder.
 4. Add the `RecentLeadsListAura` custom component to the top of the page and save it.
 
-   ![Screenshot showing the Aura component added to the home page](../assets/5-add-aura-component.png)
+   ![Screenshot showing the Aura component added to the home page](../assets/6-add-aura-component.png)
 
 
 ## Step 2: Migrate the Aura component to LWC
@@ -55,15 +55,13 @@ In this exercise, you'll create an Aura component and migrate it to LWC with the
 3. Edit the page with Lightning App Builder.
 4. Add the `RecentLeadsListLWC` custom component to the top of the page and save it.
 
-   ![Screenshot showing the LWC component added to the home page](../assets/5-add-lwc-component.png)
-
    Compare your Aura and LWC components. They should look alike and carry the same functionalities.
 
 
 ---
 
 <p align="center">
-   <a href="4-work-with-workflows.md">◀︎ Previous Exercise</a>
+   <a href="5-work-with-skills.md">◀︎ Previous Exercise</a>
    &nbsp;<b>|</b>&nbsp;
    <a href="../README.md">▲ Home</a>
 </p>

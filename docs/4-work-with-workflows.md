@@ -5,7 +5,7 @@
    &nbsp;<b>|</b>&nbsp;
    <a href="../README.md">▲ Home</a>
    &nbsp;<b>|</b>&nbsp;
-   <a href="5-migrate-from-aura-to-lwc.md">Next Exercise ▶︎</a>
+   <a href="5-work-with-skills.md">Next Exercise ▶︎</a>
 </p>
 
 ---
@@ -72,27 +72,24 @@ In this exercise, you'll configure GitHub and create an [Agentforce Vibes Workfl
 
 1. From the **Agentforce Vibes Sidebar**, click the **Manage Agentforce Rules & Workflows** (balance) icon.
 
-2. Click the **Skills** tab.
+2. Click the **Workflows** tab.
 
-3. Enter `release-version-workflow.md` under the **Workspace Workflows** section.
+3. Enter `release-version-workflow.md` under the **Workspace Workflows** section and click **+**.
 
-4. Click **+** next to the text that you entered.
+4. Paste [this content](https://raw.githubusercontent.com/pozil/agentforce-vibes-advanced-workshop/main/assets/release-version-workflow.md) in the workflow file (`release-version-workflow.md`).
 
-5. Paste [this content](https://raw.githubusercontent.com/pozil/agentforce-vibes-advanced-workshop/main/assets/release-version-workflow.md) in the workflow file:
+## Step 4: Run your workflow
 
-6. Go to Agentforce Vibes prompts, type <kbd>/</kbd> then select `/release-version-workflow.md` under **Workflow Commands**
+1. Go to Agentforce Vibes prompts, type <kbd>/</kbd> then select `/release-version-workflow.md` under **Workflow Commands**
 
    ![Screenshot showing the prompt commands including the release version workflow](../assets/4-release-workflow-command.png)
 
-7. Type <kbd>Enter</kbd> to run the workflow.
+2. Type <kbd>Enter</kbd> to run the workflow.
 
 > [!NOTE]
 > For the sake of brevity we're creating a release that is identical to the initial release as we haven't committed content since the previous release.
 
-> [!NOTE]
-> You're not prompted for confirmation when the agent runs `git status` because we added the command to the safe list earlier.
-
-8. The agent should detect that our workflow file is untracked by git and offer to halt the workflow's execution based on its instructions:
+3. The agent should detect that our workflow file is untracked by git and offer to halt the workflow's execution based on its instructions:
 
    ![Screenshot showing the agent asking whether to continue the workflow](../assets/4-halt-workflow.png)
    
@@ -106,18 +103,18 @@ In this exercise, you'll configure GitHub and create an [Agentforce Vibes Workfl
          ```
       3. Relaunch the workflow.
 
-9. Click **minor** when the agent asks about the release type.
+4. Click **minor** when the agent asks about the release type.
 
    The agent should identify the new version as `1.1.0`.
 
-10. Enter `Automated release workflow` when the agent asks about the release title.
+5. Enter `Automated release workflow` when the agent asks about the release title.
 
-11. Allow the agent to:
+6. Allow the agent to:
       - edit `package.json`
       - run the `git add ...` command
       - run the `gh release create ...` command
 
-12. Run this command to verify that the new version is created:
+7. Run this command to verify that the new version is created:
 
       ```shell
       gh release list
@@ -138,5 +135,5 @@ In this exercise, you'll configure GitHub and create an [Agentforce Vibes Workfl
    &nbsp;<b>|</b>&nbsp;
    <a href="../README.md">▲ Home</a>
    &nbsp;<b>|</b>&nbsp;
-   <a href="5-migrate-from-aura-to-lwc.md">Next Exercise ▶︎</a>
+   <a href="5-work-with-skills.md">Next Exercise ▶︎</a>
 </p>

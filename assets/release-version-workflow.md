@@ -19,9 +19,9 @@
    git status
    ```
 
-   If there are some untracked or uncommitted changes, abort the workflow regardless of the changes' type.
+   If there are any untracked or uncommitted changes, abort the workflow regardless of the changes' type.
 
-1. **Get remote repository's latest release**
+2. **Get remote repository's latest release**
 
    Retrieve the latest released version of the repository with this command:
 
@@ -29,25 +29,25 @@
    PAGER= gh release list --json tagName,isLatest --jq '.[] | select(.isLatest)|.tagName'
    ```
 
-1. **Get local project's version**
+3. **Get local project's version**
 
    Get the local `version` value from the `package.json` file.
 
-1. **Determine new version**
+4. **Determine new version**
 
    If the local version is smaller or identical to the remote version, ask for the new release's type before proceeding: major, minor or patch.
    Based on the release type, determine the new release version (`RELEASE_VERSION`) by following semantic versioning.
 
-1. **Determine release title**
+5. **Determine release title**
 
    Ask the user for the new release's title (`RELEASE_TITLE`).
 
-1. **Increase local project version**
+6. **Increase local project version**
 
    Update the `package.json` file with the new version.
    Commit and push the change.
 
-1. **Create GitHub release**
+7. **Create GitHub release**
 
    Create the GitHub release with this command (replace `RELEASE_VERSION` and `RELEASE_TITLE` with the previously collected values):
 

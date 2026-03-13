@@ -20,7 +20,7 @@ In this exercise, you'll configure your Salesforce project to retrieve some cont
 2. Run the following command:
 
    ```shell
-   sf project retrieve start -m CustomObject:Account -m CustomObject:Lead -m CustomObject:Opportunity
+   sf project retrieve start -m CustomObject:Account -m CustomObject:Lead -m CustomObject:Opportunity -m PermissionSet:Partner_Management
    ```
 
    This command retrieves the metadata required for the project.
@@ -39,7 +39,7 @@ Your project is now fully configured with the metadata Agentforce Vibes needs to
 
 In this step, we're going to use a multimodal prompt with an image to generate a component.
 
-This is the hand drawn sketch that we'll use:
+This is the hand-drawn sketch that we'll use:
 
    ![UI sketch](../assets/2-ui-sketch.jpg)
 
