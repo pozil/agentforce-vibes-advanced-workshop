@@ -5,7 +5,7 @@
    &nbsp;<b>|</b>&nbsp;
    <a href="../README.md">▲ Home</a>
    &nbsp;<b>|</b>&nbsp;
-   <a href="3-work-with-rules-workflows.md">Next Exercise ▶︎</a>
+   <a href="3-work-with-rules.md">Next Exercise ▶︎</a>
 </p>
 
 ---
@@ -102,5 +102,5 @@ This is the hand drawn sketch that we'll use:
    &nbsp;<b>|</b>&nbsp;
    <a href="../README.md">▲ Home</a>
    &nbsp;<b>|</b>&nbsp;
-   <a href="3-work-with-rules-workflows.md">Next Exercise ▶︎</a>
+   <a href="3-work-with-rules.md">Next Exercise ▶︎</a>
 </p>

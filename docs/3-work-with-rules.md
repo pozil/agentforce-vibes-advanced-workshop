@@ -1,40 +1,32 @@
-# Exercise 3: Work with Rules and Workflows
+# Exercise 3: Work with Rules
 
 <p align="center">
    <a href="2-vibe-code-a-component.md">◀︎ Previous Exercise</a>
    &nbsp;<b>|</b>&nbsp;
    <a href="../README.md">▲ Home</a>
+   &nbsp;<b>|</b>&nbsp;
+   <a href="4-work-with-workflows.md">Next Exercise ▶︎</a>
 </p>
 
 ---
 
-In this exercise, you'll configure GitHub and work with [Rules](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/devagent-rules.html) and [Workflows](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/devagent-workflows.html) to automate actions with Agentforce Vibes and move your code to a repository.
+In this exercise, you'll configure git and work with [Rules](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/devagent-rules.html).
 
-## Step 1: Authenticate with GitHub
 
-1. Run this command in the terminal to authenticate with GitHub:
+## Step 1: Configure git
+
+1. Run this command in the terminal where `YOUR_GITHUB_EMAIL` is your GitHub account email:
 
    ```shell
-   gh auth login --git-protocol https --hostname github.com --web
+   git config --global user.email "YOUR_GITHUB_EMAIL"
    ```
 
-2. Type `yes` to confirm the authentication request.
-3. Copy the one-time code from the command's output.
-4. Press <kbd>Enter</kbd>.
-5. Click **Open** to allow the redirection to github.com.
-6. On the GitHub page, paste the one-time code and click **Continue**.
-7. Click **Authorize GitHub**.
-8. If prompted, enter your GitHub credentials.
-9. Close the GitHub page and go back to Agentforce Vibes IDE.
-10. Ensure that the last command ended with something like:
+2. Run this command in the terminal where `YOUR_GITHUB_USERNAME` is your GitHub username:
 
+   ```shell
+   git config --global user.name "YOUR_GITHUB_USERNAME"
    ```
-   ✓ Authentication complete.
-   - gh config set -h github.com git_protocol https
-   ✓ Configured git protocol
-   ! Authentication credentials saved in plain text
-   ✓ Logged in as pozil
-   ```
+
 
 ## Step 2: Prepare the local git repository
 
@@ -63,10 +55,10 @@ In this exercise, you'll configure GitHub and work with [Rules](https://develope
    ```
 
 > [!NOTE]
-> We've excluded our Apex and LWC code from the initial commit. We'll add them in a separate commit.
+> We've excluded Apex and LWC from the initial commit. We'll add them in a separate commit.
 
 
-## Step 3: Create a rule for git work
+## Step 3: Create a rule for git conventions
 
 1. From the **Agentforce Vibes Sidebar**, click the **Manage Agentforce Rules & Workflows** (balance) icon:
 
@@ -74,7 +66,7 @@ In this exercise, you'll configure GitHub and work with [Rules](https://develope
 
 2. Make sure that you're on the **Rules** tab.
 
-3. Enter `custom-git-convention.md` under the **Workspace Rules** section.
+3. Enter `custom-git-conventions.md` under the **Workspace Rules** section.
 
 4. Click **+** next to the text that you entered.
 
@@ -88,9 +80,14 @@ In this exercise, you'll configure GitHub and work with [Rules](https://develope
    - `description` is a short description of the changes introduced in the commit, a summary of the issue or the PR.
    ```
 
-## Step 4: Create a workflow to manage GitHub releases
+6. Go to Agentforce Vibes prompts, paste this text then hit <kbd>Enter</kbd>:
 
+   ```
+   Commit my changes.
+   ```
 
+> [!TIP]
+> Note how the rule that we've set up is used to format the commit message.
 
 ---
 
@@ -98,4 +95,6 @@ In this exercise, you'll configure GitHub and work with [Rules](https://develope
    <a href="2-vibe-code-a-component.md">◀︎ Previous Exercise</a>
    &nbsp;<b>|</b>&nbsp;
    <a href="../README.md">▲ Home</a>
+   &nbsp;<b>|</b>&nbsp;
+   <a href="4-work-with-workflows.md">Next Exercise ▶︎</a>
 </p>
