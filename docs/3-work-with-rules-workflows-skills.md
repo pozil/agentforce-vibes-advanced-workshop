@@ -4,13 +4,15 @@
    <a href="2-vibe-code-a-component.md">◀︎ Previous Exercise</a>
    &nbsp;<b>|</b>&nbsp;
    <a href="../README.md">▲ Home</a>
+   &nbsp;<b>|</b>&nbsp;
+   <a href="4-work-with-github.md">Next Exercise ▶︎</a>
 </p>
 
 ---
 
-In this Exercise, you'll work with [Rules](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/devagent-rules.html), [Workflows](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/devagent-workflows.html) and [Skills](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/skills.html) to automate actions with Agentforce Vibes.
+In this exercise, you'll work with [Rules](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/devagent-rules.html), [Workflows](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/devagent-workflows.html) and [Skills](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/skills.html) to automate actions with Agentforce Vibes.
 
-## Create a Rule
+## Step 1: Create a Rule
 
 1. From the **Agentforce Vibes Sidebar**, click the **Manage Agentforce Rules & Workflows** (balance) icon:
 
@@ -32,11 +34,11 @@ In this Exercise, you'll work with [Rules](https://developer.salesforce.com/docs
    - `description` is a short description of the changes introduced in the commit, a summary of the issue or the PR.
    ```
 
-## Create a Workflow
+## Step 2: Create a Workflow
 
 Check out a feature branch, commit the current changes, push them to the remote. Create a PR.
 
-## Create a Skill
+## Step 3: Create a Skill
 
 
 ---
@@ -45,4 +47,6 @@ Check out a feature branch, commit the current changes, push them to the remote.
    <a href="2-vibe-code-a-component.md">◀︎ Previous Exercise</a>
    &nbsp;<b>|</b>&nbsp;
    <a href="../README.md">▲ Home</a>
+   &nbsp;<b>|</b>&nbsp;
+   <a href="4-work-with-github.md">Next Exercise ▶︎</a>
 </p>
