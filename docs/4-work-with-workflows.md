@@ -4,6 +4,8 @@
    <a href="3-work-with-rules.md">◀︎ Previous Exercise</a>
    &nbsp;<b>|</b>&nbsp;
    <a href="../README.md">▲ Home</a>
+   &nbsp;<b>|</b>&nbsp;
+   <a href="5-migrate-from-aura-to-lwc.md">Next Exercise ▶︎</a>
 </p>
 
 ---
@@ -85,7 +87,7 @@ In this exercise, you'll configure GitHub and create an [Agentforce Vibes Workfl
 7. Type <kbd>Enter</kbd> to run the workflow.
 
 > [!NOTE]
-> For the sake of brevity we're creating a release that is identical to the initial release as we haven't committed content since the previous release."
+> For the sake of brevity we're creating a release that is identical to the initial release as we haven't committed content since the previous release.
 
 > [!NOTE]
 > You're not prompted for confirmation when the agent runs `git status` because we added the command to the safe list earlier.
@@ -94,15 +96,15 @@ In this exercise, you'll configure GitHub and create an [Agentforce Vibes Workfl
 
    ![Screenshot showing the agent asking whether to continue the workflow](../assets/4-halt-workflow.png)
    
-   The above options may vary due the nature of AI:
+   The above options may vary due to the nature of AI:
    - If possible, ask the agent to add and commit the files then resume the workflow.
    - Otherwise, follow these steps:
-      1. abort the workflow
-      1. run this command to commit and push the file:
+      1. Abort the workflow
+      2. Run this command to commit and push the file:
          ```sh
          git commit --all --message "build: release workflow" && git push
          ```
-      1. relaunch the workflow.
+      3. Relaunch the workflow.
 
 9. Click **minor** when the agent asks about the release type.
 
@@ -135,4 +137,6 @@ In this exercise, you'll configure GitHub and create an [Agentforce Vibes Workfl
    <a href="3-work-with-rules.md">◀︎ Previous Exercise</a>
    &nbsp;<b>|</b>&nbsp;
    <a href="../README.md">▲ Home</a>
+   &nbsp;<b>|</b>&nbsp;
+   <a href="5-migrate-from-aura-to-lwc.md">Next Exercise ▶︎</a>
 </p>
