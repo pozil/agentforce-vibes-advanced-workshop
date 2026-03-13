@@ -19,7 +19,7 @@
    git status
    ```
 
-   If there are some uncommitted changes, abort the workflow.
+   If there are some untracked or uncommitted changes, abort the workflow regardless of the changes' type.
 
 1. **Get remote repository's latest release**
 
