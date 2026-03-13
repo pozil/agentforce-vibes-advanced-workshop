@@ -49,7 +49,7 @@ In this exercise, you'll configure GitHub and work with [Workflows](https://deve
    gh repo create agentforce-vibes-workshop --private --push --source .
    ```
 
-1. Optional: run this command to open your repository in a new browser tab and inspect it:
+2. Optional: run this command to open your repository in a new browser tab and inspect it:
 
    ```shell
    gh repo view --web

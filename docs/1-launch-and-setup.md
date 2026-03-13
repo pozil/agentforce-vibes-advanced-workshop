@@ -106,7 +106,7 @@ In this exercise, you'll launch Agentforce Vibes and configure it for the worksh
 
    ![Screenshot showing the auto approval configuration panel](../assets/1-manage-safe-commands.png)
 
-1. Paste the following lines at the end of the file:
+3. Paste the following lines at the end of the file:
 
    ```
    git status
