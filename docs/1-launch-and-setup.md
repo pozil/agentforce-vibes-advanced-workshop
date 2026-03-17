@@ -56,17 +56,17 @@ In this exercise, you'll launch Agentforce Vibes and configure it for the worksh
 
 1. Open the **Agentforce Vibes Sidebar**.
 
-2. Click **Manage MCP Server**.
+2. Click the "Hamburger" icon (Manage MCP Servers).
 
-   ![Screenshot of MCP server list](../assets/1-agentforce-mcp.jpg)
+   ![Screenshot of MCP server list](../assets/1-mcp-hamburger-icon.png)
 
-3. Click the **Configuration Icon**.
+3. Click the "Cog" icon next to "MCP Severs".
 
-   ![Screenshot showing the edit icon for MCP servers](../assets/1-configure-mcp-servers-icon.jpg)
+   ![Screenshot of MCP server list](../assets/1-mcp-cog-icon.png)
 
 4. Click **Configure MCP Servers** to open the configuration file (`a4d_mcp_settings.json`).
 
-   ![Screenshot showing the "configure MCP servers" button](../assets/1-configure-mcp-servers.jpg)
+   ![Screenshot showing the "configure MCP servers" button](../assets/1-configure-mcp-servers.png)
 
 5. Replace the contents with the following:
 
