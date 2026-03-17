@@ -61,7 +61,7 @@ This is the hand-drawn sketch that we'll use:
 
 3. From the menu, click **Upload File or Image**.
 
-4. Select the `ui-sketch.jpg` file at the root of your project.
+4. Select the `ui-sketch.jpg` file at the root of your project (`/home/codebuilder/dx-project/`).
 
 5. Paste this prompt then hit <kbd>Enter</kbd>:
 
@@ -92,7 +92,7 @@ This is the hand-drawn sketch that we'll use:
 
 10. Click **Save**.
 
-11. Click the **back arrow** on top of the screen to return to your home page and admire your new dashboard.
+11. Click the **back arrow** on top of the screen to return to your home page and admire your new dashboard ;)
 
    ![Screenshot showing the dashboard component](../assets/2-dashboard.png)
 
