@@ -43,8 +43,6 @@ In this exercise, you'll configure git and create an [Agentforce Vibes Rule](htt
    rm -fr force-app/main/default/staticresources
    rm -fr force-app/main/default/tabs
    rm -fr force-app/main/default/triggers
-   rm *.vsix
-   echo "trace.md" >> .gitignore
    ```
 
 2. Run these commands in the terminal to initialize a local git repository and create an initial commit:
