@@ -57,7 +57,7 @@ In this exercise, you'll enable Salesforce hosted MCP servers, launch Agentforce
    ![Screenshot showing a prompt to accept terms before enabling Agentforce Vibes](https://raw.githubusercontent.com/pozil/agentforce-vibes-advanced-workshop/main/assets/1-meet-agentforce.jpg)
 
 
-### Step 4: Enable the Salesforce MCP Servers
+## Step 4: Enable the Salesforce MCP Servers in Agentforce Vibes
 
 1. In the Agentforce Vibes Sidebar, Click **Manage MCP Servers**.
 
