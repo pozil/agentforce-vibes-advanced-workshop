@@ -17,8 +17,8 @@ In this exercise, you'll enable Salesforce hosted MCP servers, launch Agentforce
 
 3. Click **Save**.
 
-   > [!NOTE]
-   > The MCP Service is currently in Beta. Enabling it allows your org to host MCP endpoints that AI clients and agents can call using a standardized, governed protocol.
+> [!NOTE]
+> The MCP Service is currently in Beta. Enabling it allows your org to host MCP endpoints that AI clients and agents can call using a standardized, governed protocol.
 
 ## Step 2: Activate Salesforce MCP Servers
 
@@ -30,8 +30,8 @@ In this exercise, you'll enable Salesforce hosted MCP servers, launch Agentforce
 
 4. Open the **salesforce-api-context** MCP server and click **Activate**.
 
-   > [!NOTE]
-   > Activating these servers exposes Salesforce object data and API context to your MCP clients. Both servers are required for a complete MCP experience.
+> [!NOTE]
+> Activating these servers exposes Salesforce object data and API context to your MCP clients. Both servers are required for a complete MCP experience.
 
 
 ## Step 3: Launch Agentforce Vibes IDE
