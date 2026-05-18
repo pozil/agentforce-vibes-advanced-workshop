@@ -6,10 +6,35 @@
    <a href="2-vibe-code-a-component.md">Next Exercise ▶︎</a>
 </p>
 
-In this exercise, you'll launch Agentforce Vibes and configure it for the workshop.
+In this exercise, you'll enable Salesforce hosted MCP servers, launch Agentforce Vibes and configure it for the workshop.
 
 
-## Step 1: Launch Agentforce Vibes IDE
+## Step 1: Enable MCP Service (Beta)
+
+1. From **Setup**, in the **Quick Find** box, enter `User Interface Settings`, then select **User Interface Settings**.
+
+2. Locate **Enable MCP Service (Beta)** and turn it on.
+
+3. Click **Save**.
+
+   > [!NOTE]
+   > The MCP Service is currently in Beta. Enabling it allows your org to host MCP endpoints that AI clients and agents can call using a standardized, governed protocol.
+
+## Step 2: Activate Salesforce MCP Servers
+
+1. From **Setup**, in the **Quick Find** box, enter `MCP Servers`, then select **MCP Servers**.
+
+2. Click **Salesforce Servers**.
+
+3. Open the **sobject-all** MCP server and click **Activate**.
+
+4. Open the **salesforce-api-context** MCP server and click **Activate**.
+
+   > [!NOTE]
+   > Activating these servers exposes Salesforce object data and API context to your MCP clients. Both servers are required for a complete MCP experience.
+
+
+## Step 3: Launch Agentforce Vibes IDE
 
 1. Open the **Setup Menu** and click **Agentforce Vibes**.
 
@@ -32,13 +57,13 @@ In this exercise, you'll launch Agentforce Vibes and configure it for the worksh
    ![Screenshot showing a prompt to accept terms before enabling Agentforce Vibes](https://raw.githubusercontent.com/pozil/agentforce-vibes-advanced-workshop/main/assets/1-meet-agentforce.jpg)
 
 
-### Step 2: Update the Salesforce DX MCP Servers
+### Step 4: Enable the Salesforce MCP Servers
 
 1. In the Agentforce Vibes Sidebar, Click **Manage MCP Servers**.
 
    ![Screenshot showing how to disable MCP servers](../assets/1-manage-mcp-servers.jpg)
 
-2. Toggle off the **Salesforce API Context** and **Salesforce Metadata Experts** MCP servers. We will only use the Salesforce DX server for the workshop.
+2. Toggle on the **Salesforce API Context** and **Salesforce Metadata Experts** MCP servers.
 
    ![Screenshot showing how to disable MCP servers](../assets/1-disable-mcp-servers.jpg)
 
@@ -51,7 +76,7 @@ In this exercise, you'll launch Agentforce Vibes and configure it for the worksh
    ![Screenshot showing the Salesforce DX MCP server tools](../assets/1-salesforce-dx-tools.jpg)
 
 
-## Step 3: Configure safe commands
+## Step 5: Configure safe commands
 
 1. From the **Agentforce Vibes Sidebar**, click **Auto-approve: Read, Edit, Safe Commands, MCP**
 
