@@ -13,7 +13,7 @@
 In this exercise, you'll create a custom [Agentforce Vibes Skill](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/skills.html) that helps with checking your org for security and quality best practices using [Salesforce Code Analyzer](https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide).
 
 > [!NOTE]
-> The Salesforce DX MCP server contains Salesforce Code Analyzer tools for scanning a couple of specific local files. This skill lets you scan the entire org's codebase in a well-defined process.
+> The Salesforce DX MCP server contains Salesforce Code Analyzer tools for scanning a couple of specific local files. The custom skill that you'll build lets you scan the entire org's codebase in a well-defined process.
 
 ## Step 0: Scan the org without a custom skill (optional)
 
@@ -26,7 +26,7 @@ In this exercise, you'll create a custom [Agentforce Vibes Skill](https://develo
 2. Accept the different commands that the agent offers to run.
 
 3. Notice the following limitations:
-   - the agent struggles to pass the right parameters to the `run_code_analyzer` tool and needs a couple of attempts to get this right.
+   - the agent may struggle to pass the right file/folder path parameters to the `run_code_analyzer` tool and needs a couple of attempts to get this right.
    - only a subset of local files are scanned.
 
 
