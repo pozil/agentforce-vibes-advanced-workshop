@@ -87,6 +87,7 @@ In this exercise, you'll enable Salesforce hosted MCP servers, launch Agentforce
 3. Paste the following lines at the end of the file:
 
    ```
+   sf plugins
    git status
    mkdir ...
    ls ...

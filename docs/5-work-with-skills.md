@@ -10,53 +10,52 @@
 
 ---
 
-In this exercise, you'll create an [Agentforce Vibes Skill](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/skills.html) that helps with editing Flexipage metadata.
+In this exercise, you'll create a custom [Agentforce Vibes Skill](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/skills.html) that helps with checking your org for security and quality best practices using [Salesforce Code Analyzer](https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide).
+
+> [!NOTE]
+> The Salesforce DX MCP server contains Salesforce Code Analyzer tools for scanning a couple of specific local files. This skill lets you scan the entire org's codebase in a well-defined process.
+
+## Step 0: Scan the org without a custom skill (optional)
+
+1. Run the following prompt:
+
+   ```
+   Inspect my org for security and quality best practices.
+   ```
+
+2. Accept the different commands that the agent offers to run.
+
+3. Notice the following limitations:
+   - the agent struggles to pass the right parameters to the `run_code_analyzer` tool and needs a couple of attempts to get this right.
+   - only a subset of local files are scanned.
 
 
-## Step 1: Create a skill
+
+## Step 1: Create a custom skill
 
 1. From the **Agentforce Vibes Sidebar**, click the **Manage Agentforce Rules & Workflows** (balance) icon.
 
 2. Click the **Skills** tab.
 
-3. Enter `salesforce-flexipage` under the **Workspace Skills** section and click **+**.
+3. Enter `scanning-org-security-quality` under the **Workspace Skills** section and click **+**.
 
-4. Replace the entire content of the `SKILL.md` file with [this content](https://raw.githubusercontent.com/forcedotcom/afv-library/main/skills/salesforce-flexipage/SKILL.md).
+4. Replace the entire content of the `SKILL.md` file with [this content](https://raw.githubusercontent.com/pozil/agentforce-vibes-advanced-workshop/main/assets/scanning-org-security-quality.md).
 
-> [!INFO]
-> This skill is one of the many Agentforce Vibes Open Source resources available on the [Agentforce Vibes Library](https://github.com/forcedotcom/afv-library) GitHub repository.
+5. Save the file.
 
+## Step 2: Test your custom skill
 
-## Step 2: Test your skill
-
-1. Run the following prompt:
+1. Run the same prompt as in Step 0:
 
    ```
-   Create a "Partner Performance" custom Lightning page tab with a new flexipage that holds the partnerPerformanceDashboard LWC.
-   Add the tab to the "Partner Management" permission set.
-   Deploy the metadata.
+   Inspect my org for security and quality best practices.
    ```
 
-   Notice in the agent's response that the Flexipage skill is being used.
+2. Notice in the agent's response that the `scanning-org-security-quality` skill is being used.
 
-2. Open your Org's Setup.
-3. Search for `App` and click **App Manager**.
-4. Find the app with **LightningSales** as its Developer Name and edit it.
-5. Click **Navigation Items**.
-6. Search for `perf` and add the **Partner Performance** page to the Selected Item list.
-7. Click **Save**.
-8. Go back to the Sales app home page.
+3. Accept the different commands that the agent offers to run.
 
-> [!NOTE]
-> You may need to refresh the page a couple of times to see your new tab.
-
-9. Click the **Partner Performance** tab.
-
-   ![Screenshot showing custom Partner Performance tab](../assets/5-custom-tab.png)
-
-> [!NOTE]
-> The page may contain additional components that you can remove.
-
+4. At the end of the execution, you'll get a list of rule violations with some recommendations for the entire org. Note the high severity violations for the `superSort.cls` Apex file that weren't detected when the prompt was first run without the skill.
 
 ---
 
