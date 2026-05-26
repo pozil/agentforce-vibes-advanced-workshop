@@ -82,7 +82,7 @@ This is the hand-drawn sketch that we'll use:
 > [!NOTE]
 > This may happen more than once if the agent needs to make adjustments to the deploy parameters or metadata.
 
-7. Once the deployment is complete, open your org's home page.
+7. Once the deployment is complete, open your org's **home page**.
 
 8. Click the **Setup icon menu** then click **Edit Page**.
 

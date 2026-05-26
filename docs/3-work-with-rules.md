@@ -105,9 +105,13 @@ In this exercise, you'll configure git and create an [Agentforce Vibes Rule](htt
    Commit my changes.
    ```
 
-   The dev agent may make several attempts at fulfilling this and fixing test errors.
+   The dev agent may make several attempts at fulfilling this request and fixing test errors.
    
-   You will need to approve the `deploy_metadata`, `run_apex_test` tools' execution and the `git add` and `git commit` commands. 
+   You will need to approve the following tools and commands:
+   - `deploy_metadata`
+   - `run_apex_test`
+   - `git add`
+   - `git commit`
 
 > [!TIP]
 > You can safely auto-approve the execution of `run_apex_test`.
