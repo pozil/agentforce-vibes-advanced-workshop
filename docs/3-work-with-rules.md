@@ -63,7 +63,7 @@ In this exercise, you'll configure git and create an [Agentforce Vibes Rule](htt
 
    ![Icon for Manage Agentforce Rules & Workflows](../assets/3-rules-icon.png)
 
-2. Make sure that you're on the **Rules** tab.
+2. Click the **Rules** tab.
 
 3. Enter `custom-git-conventions.md` under the **Workspace Rules** section.
 
