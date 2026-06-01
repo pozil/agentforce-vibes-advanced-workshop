@@ -99,7 +99,7 @@ In this exercise, you'll configure GitHub and create an [Agentforce Vibes Workfl
       1. Abort the workflow
       2. Run this command to commit and push the file:
          ```sh
-         git commit --all --message "build: release workflow" && git push
+         git add . && git commit --message "build: release workflow" && git push
          ```
       3. Relaunch the workflow.
 
